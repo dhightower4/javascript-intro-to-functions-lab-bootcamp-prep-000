@@ -11,19 +11,14 @@ function logWhisper(string) {
   console.log('hello')
 }
 
+var uppercase = `HELLO!`
+
+var lowercase = `hello!`
+
+var mixedCase = `I love you grandma`
+
 function sayHiToGrandma(string) {
-  var uppercase = `HELLO!`
-
-  uppercase.toUpperCase === uppercase
-
-  var lowercase = `hello!`
-
-  lowercase.toLowerCase() === lowercase
-
-  var mixedCase = `I love you grandma`
-
-
-    if (string === lowercase) {
+  if (string.toLowerCase === lowercase) {
       return(`I can't hear you!`)
     } else if (string == uppercase) {
       return(`YES INDEED!`)
